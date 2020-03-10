@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="login.salesforce.com"
+  User="MyAccountId"
+  Password=""
+  Directory="services/oauth2/authorize"
+  Port="22"
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="ftp"
+  Categories="testSalesforceIssue:All"
+  PublishAfterUpload="true"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ProviderType="Git"
+  Database="file:///C:/Users/jcastaneda/Documents/.git"
+  DatabaseRoot="file:///C:/Users/jcastaneda/Documents/My Projects/ProjectTest"
+  PushToRemote="true"
+  ConnectionMode="Active"></CatapultDestination>

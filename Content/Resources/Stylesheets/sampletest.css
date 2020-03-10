@@ -1,0 +1,42 @@
+/*<meta sourceDocument="C:\Users\jcastaneda\Desktop\sampletest.xlsx" />*/
+
+table
+{
+	padding: 0;
+	margin: 0;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+col
+{
+	width: 65px;
+	padding: 0;
+	margin: 0;
+}
+
+tr
+{
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+td
+{
+	font-family: Calibri;
+	font-size: 11px;
+	background: white;
+	color: black;
+	padding: 0px;
+	border: none;
+}
+
+.Default
+{
+	vertical-align: bottom;
+	color: #000000;
+	font-family: "Calibri", "";
+	font-size: 11px;
+}
+

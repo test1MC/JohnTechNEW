@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta http-equiv="Cache-control" content="no-cache" />
+        <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:menuProxy mc-linked-toc="/Project/TOCs/TOC.fltoc" style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+        <MadCap:searchBarProxy />
+        <MadCap:breadcrumbsProxy class="" />
+        <MadCap:bodyProxy />
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/TestingSomething/Topic Whatever.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="New"
+    Link="/Project/TOCs/New.fltoc"></TocEntry>
+  <TocEntry
+    Title="New1"
+    Link="/Project/TOCs/New1.fltoc" />
+  <TocEntry
+    Title="New3"
+    Link="/Project/TOCs/New3.fltoc"></TocEntry>
+  <TocEntry
+    Title="New2"
+    Link="/Project/TOCs/New2.fltoc"></TocEntry>
+</CatapultToc>

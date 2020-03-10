@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:slideshow MadCap:targetName="slideshow">
+            <MadCap:slide>
+                <h2>Slide 1</h2>
+                <p>Delete this text and replace it with your own slide content.</p>
+                <p>
+                    <img src="../Images/download.png" />
+                </p>
+                <p>&#160;</p>
+            </MadCap:slide>
+            <MadCap:slide>
+                <h2>Slide 2</h2>
+                <p>Delete this text and replace it with your own slide content.</p>
+                <p>
+                    <img src="../Images/flare-chrome-144x144.png" />
+                </p>
+                <p>&#160;</p>
+            </MadCap:slide>
+        </MadCap:slideshow>
+    </body>
+</html>

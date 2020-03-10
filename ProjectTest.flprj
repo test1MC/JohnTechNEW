@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" xml:lang="en-us" SourceControlBound="false" Comment="This template contains starter topics and other files designed for an online knowledge base in HTML5 format. It includes a skin and styles that make the output responsive, which means the content display changes automatically depending on the width of the screen." MasterStylesheetOverride="False" MasterToc="/Project/TOCs/TOC.fltoc" IncludePattern="*.htm;*.html" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="true" DeleteUnreferenced="true" AutoSync="true" LastImport="2020-02-07T12:51:38.1864200-08:00" MasterStylesheet="/Content/Resources/Stylesheets/mimix-share.css">
+    <Files>
+        <Url Source="file:///C:/Users/jcastaneda/Desktop/ticket files/akshayabalasubramanian/S011395/Sample.flprj" AbsoluteSource="file:///C:/Users/jcastaneda/Desktop/ticket files/akshayabalasubramanian/S011395/Sample.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../../../Desktop/ticket files/akshayabalasubramanian/S011395/Content/Sample_file.htm" AbsoluteSource="file:///C:/Users/jcastaneda/Desktop/ticket files/akshayabalasubramanian/S011395/Content/Sample_file.htm" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="Content/Sample_file.htm" TimeStamp="2/7/2020 9:49:59 AM" />
+    </GeneratedFiles>
+</CatapultProject>

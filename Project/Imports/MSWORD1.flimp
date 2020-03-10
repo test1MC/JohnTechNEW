@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport PreserveMappedStyles="false" CreateNewStylesheet="True" InlineFormatting="Remove" UseFirstHeadingAsTopicTitle="True" UseMaxCharLimit="False" MaxCharLimit="10000" UseMinCharLimit="True" MinCharLimit="50" AddContinuedLinks="False" ContinuedLinkFormat="(continued in {title})" AddContinuedFromLinks="False" ContinuedFromLinkFormat="(continued from {title})" FilenameLength="24" AutoFitTables="False" UseHeaderRows="False" TableStyles="ProjectStyleSheet" UseListBullets="True" ConvertEquations="True" GeneratePageLayouts="False" PageBreaks="Convert" KeepSourceLinks="False" AutoSync="False" ImportFolder="">
+    <Files />
+    <ExcludedFiles />
+    <CollectedSourceFiles />
+    <SkippedSourceFiles />
+    <GeneratedFiles />
+    <ParagraphStyles />
+    <CharacterStyles />
+    <NewTopicStyles />
+</MsWordImport>

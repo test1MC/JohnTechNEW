@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="JediOrder">JediOrder</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2018-01-16T08:02:20.5245049-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="Updated"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2018-06-07T11:23:57.7806534-07:00"
+    EvaluatedDefinition="MMMM dd, yyyy">MMMM dd, yyyy</Variable>
+  <Variable
+    Name="Product 1"
+    Comment=""
+    EvaluatedDefinition="Product 1">Product 1</Variable>
+  <Variable
+    Name="Product 2"
+    Comment=""
+    EvaluatedDefinition="Product 2">Product 2</Variable>
+  <Variable
+    Name="Product 3"
+    Comment=""
+    EvaluatedDefinition="Product 3">Product 3</Variable>
+  <Variable
+    Name="Facebook"
+    Comment=""
+    EvaluatedDefinition="http://www.facebook.com/jediorder">http://www.facebook.com/jediorder</Variable>
+  <Variable
+    Name="Twitter"
+    Comment=""
+    EvaluatedDefinition="https://twitter.com/#!/JediOrder">https://twitter.com/#!/JediOrder</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition="support@jediorder.com">support@jediorder.com</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    EvaluatedDefinition="Coruscant, CA 92037">Coruscant, CA 92037</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    EvaluatedDefinition="1234 Jedi Temple Ave.">1234 Jedi Temple Ave.</Variable>
+  <Variable
+    Name="Version"
+    Comment=""
+    EvaluatedDefinition="1.0.0.1">1.0.0.1</Variable>
+  <Variable
+    Name="Article"
+    Comment=""
+    EvaluatedDefinition="#001">#001</Variable>
+  <Variable
+    Name="Author Name"
+    Comment=""
+    EvaluatedDefinition="Jedi Master Qui-gon John">Jedi Master Qui-gon John</Variable>
+  <Variable
+    Name="SME"
+    Comment=""
+    EvaluatedDefinition="Young Padawan Kenobi">Young Padawan Kenobi</Variable>
+  <Variable
+    Name="xRefSample"
+    Comment=""
+    EvaluatedDefinition="hyperlinks">hyperlinks</Variable>
+  <Variable
+    Name="Article"
+    Comment=""
+    EvaluatedDefinition="something else">something else</Variable>
+  <Variable
+    Name="Author Name"
+    Comment=""
+    EvaluatedDefinition="Jedi Master Yoda">Jedi Master Yoda</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    EvaluatedDefinition="Somewhere else">Somewhere else</Variable>
+</CatapultVariableSet>

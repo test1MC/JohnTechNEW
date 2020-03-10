@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:menuProxy mc-linked-toc="/Project/TOCs/TOC.fltoc" style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+        <MadCap:searchBarProxy />
+        <MadCap:bodyProxy />
+        <div class="home-footer">
+            <table style="width: 100%;">
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="footer"><MadCap:variable name="Customized.Email" />
+                            </p>
+                            <p class="footer"><MadCap:variable name="Customized.PhoneNumber" />
+                            </p>
+                            <p class="footer"><MadCap:variable name="Customized.StreetAddress" />
+                            </p>
+                            <p class="footer"><MadCap:variable name="Customized.CityStateZip" />
+                            </p>
+                            <p class="footer-sub">Created Using MadCap&#160;Flare</p>
+                        </td>
+                        <td style="text-align: right;">
+                            <img src="../Images/jediorder.png" MadCap:mediastyle="@media print { width: auto;height: auto; }" style="width: auto;height: auto;" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

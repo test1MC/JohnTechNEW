@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="ScreenOnly"
+    BackgroundColor="Blue" />
+  <ConditionTag
+    Comment=""
+    Name="PrintOnly"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Web"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Tablet"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Mobile"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="HTMLonly"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="PDFonly"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="WORDonly"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="DisplayNoTOC"
+    Comment="" />
+</CatapultConditionTagSet>

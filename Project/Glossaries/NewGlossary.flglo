@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="NewGlossary.Term0">
+    <Terms>
+      <Term>My Term</Term>
+    </Terms>
+    <Definition>My definition</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="NewGlossary.Term1"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>sugar</Term>
+    </Terms>
+    <Definition
+      Link="">makes things sweeter</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="NewGlossary.Term2"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>salt</Term>
+    </Terms>
+    <Definition
+      Link="">makes things saltier</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="NewGlossary.Term3">
+    <Terms>
+      <Term>MyTerm</Term>
+    </Terms>
+    <Definition></Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

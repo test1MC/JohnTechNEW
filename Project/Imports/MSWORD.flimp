@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport PreserveMappedStyles="false" CreateNewStylesheet="True" InlineFormatting="Remove" UseFirstHeadingAsTopicTitle="True" UseMaxCharLimit="false" MaxCharLimit="10000" UseMinCharLimit="true" MinCharLimit="50" AddContinuedLinks="false" ContinuedLinkFormat="(continued in {title})" AddContinuedFromLinks="False" ContinuedFromLinkFormat="(continued from {title})" FilenameLength="24" AutoFitTables="False" UseHeaderRows="False" TableStyles="ProjectStyleSheet" UseListBullets="True" ConvertEquations="True" GeneratePageLayouts="False" PageBreaks="Ignore" KeepSourceLinks="true" AutoSync="False" Stylesheet="../../Content/Resources/Stylesheets/Styles.css" ImportFolder="wordimport" LastImport="2020-02-26T12:40:38.6024078-08:00">
+    <Files>
+        <Url Source="../../Content/wordimport/GloriaK.docx" AbsoluteSource="file:///C:/Users/jcastaneda/Documents/My Projects/ProjectTest/Content/wordimport/GloriaK.docx" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles />
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="../../Content/Resources/Images/GloriaK/What is Lorem Ipsum.gif" TimeStamp="2/26/2020 12:40:36 PM" />
+        <Url Source="../../Content/Resources/Images/GloriaK/What is Lorem Ipsum_1.gif" TimeStamp="2/26/2020 12:40:36 PM" />
+        <Url Source="../../Content/Resources/Images/GloriaK/What is Lorem Ipsum_2.gif" TimeStamp="2/26/2020 12:40:36 PM" />
+        <Url Source="../../Content/wordimport/What is Lorem Ipsum.htm" TimeStamp="2/26/2020 12:40:36 PM" />
+        <Url Source="../TOCs/MSWORD.fltoc" TimeStamp="2/26/2020 12:40:36 PM" />
+        <Url Source="../../Content/Resources/Stylesheets/MSWORD.css" TimeStamp="2/26/2020 12:40:36 PM" />
+    </GeneratedFiles>
+    <ParagraphStyles>
+        <Map From="Heading 1" To="h1" Style="Flare" />
+    </ParagraphStyles>
+    <CharacterStyles />
+    <NewTopicStyles />
+</MsWordImport>

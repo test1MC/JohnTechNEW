@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.PDFonly], exclude[Default.HTMLonly or Default.WORDonly]"
+  MasterToc="/Project/TOCs/TOC.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.old.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/PageLTest.flpgl"
+  MasterStylesheetOverride="true"
+  PatchHeadingLevels="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/NewDestination.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+  <PDF
+    InitialMagnification="Actual" />
+</CatapultTarget>

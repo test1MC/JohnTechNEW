@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="first"
+  MasterToc="/Project/TOCs/TOC.fltoc"
+  EquationsOutputType="SVG"
+  ExcludeUnreferencedContent="false"
+  TopNavTocPath="false"
+  ReplaceSpacesWithUnderscores="true"
+  DefaultUrl="/Content/Default/Home.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.old.css"
+  MasterStylesheetOverride="false"
+  ShowMadCapBacklink="false"
+  Skin="/Project/Skins/tripane.flskn"
+  SearchEngine="MadCapSearch"
+  EnableSitemap="false"
+  PartialWordSearch="true"
+  OutputAnalyticsServer="https://api.madcapcentral.com/"
+  OutputAnalyticsLicenseId="203"
+  LiveHelpType="Disabled"
+  CentralLinkIds=""
+  TargetLanguage="en-us"
+  SyncLingoProject="true"
+  ConditionTagExpression="include[Default.HTMLonly], exclude[Default.DisplayNoTOC or Default.PDFonly or Default.WORDonly]"
+  InsertMOTW="true"
+  ResolveCssVariables="true"
+  PreCompileScaledImages="true"
+  IncludeImportance="true"
+  DisableAutoSync="true"
+  MasterPage="/Content/Resources/MasterPages/Other-Topics.flmsp"
+  TabletBreakpoint="1"
+  MobileBreakpoint="1">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Destinations></Destinations>
+  <Elasticsearch
+    Guid="1c93d730-4aaf-4184-9c90-0653273e4826" />
+  <MetaTags>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+  </MetaTags>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/NewGlossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

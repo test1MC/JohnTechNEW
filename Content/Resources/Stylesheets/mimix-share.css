@@ -1,0 +1,553 @@
+/*<meta />*/
+
+a.xref
+{
+	text-decoration: underline;
+	font-family: 'Open Sans';
+}
+
+a:visited
+{
+	color: #00005c;
+}
+
+a:active
+{
+	color: #009bff;
+}
+
+blockquote.note
+{
+	margin-bottom: 8pt;
+	font-size: 11pt;
+	font-family: Calibri;
+}
+
+body
+{
+	font-size: 12pt;
+}
+
+code
+{
+	font-family: 'Courier New';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	line-height: 12pt;
+	text-decoration: none;
+}
+
+div.nobreak
+{
+	page-break-inside: avoid;
+}
+
+div.Note
+{
+	text-align: left;
+	margin-left: 0.45in;
+	margin-right: 0.125in;
+	margin-top: 12pt;
+	margin-bottom: 8pt;
+	font-family: 'Calibri';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 13pt;
+	text-decoration: none;
+}
+
+h1
+{
+	page-break-after: avoid;
+	mc-heading-level: 1;
+	color: #00005C;
+	page-break-inside: avoid;
+	margin-top: 0pt;
+	margin-left: 0pt;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 16pt;
+	margin-bottom: 12pt;
+}
+
+h1.Chapter_Title
+{
+	page-break-before: always;
+	font-weight: normal;
+	font-size: 20pt;
+}
+
+h1.Appendix_Title
+{
+	page-break-before: always;
+	font-weight: normal;
+	font-size: 20pt;
+}
+
+h2
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #00005C;
+	font-size: 14pt;
+}
+
+h3
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 3;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #00005C;
+	font-size: 12pt;
+}
+
+h4
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 4;
+	font-family: Calibri;
+	font-style: italic;
+	color: #00005C;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+hr
+{
+	border-color: #00005C;
+}
+
+img.cover
+{
+	z-index: -4;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: page;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 0;
+}
+
+li.ListParagraph
+{
+	margin-bottom: 8pt;
+	font-size: 11pt;
+	margin-left: 36pt;
+	font-family: Calibri;
+}
+
+li.LegalNotices
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+MadCap|xref.Heading_And_Page
+{
+	mc-format: '{xref}{paratext}{/xref} on page {page}';
+}
+
+MadCap|xref.Heading
+{
+	mc-format: '{xref}{paratext}{/xref}';
+}
+
+MadCap|xref.page
+{
+	mc-format: '{xref}page {page}';
+}
+
+MadCap|xref.step__
+{
+	mc-format: '{xref}step {paranumonly}';
+}
+
+MadCap|xref.step___on_page
+{
+	mc-format: '{xref}step {paranumonly}{Default ¹ Font} on {xref} page {page}';
+}
+
+MadCap|xref.tableFootnote
+{
+	mc-format: '{paranumonly}';
+}
+
+ol,
+ul
+{
+	margin-top: 8pt;
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+ol.indent1
+{
+	list-style-type: decimal;
+	margin-left: 18pt;
+}
+
+ol.indent2
+{
+	list-style-type: lower-alpha;
+	margin-left: 54pt;
+}
+
+p
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 6pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 13pt;
+	text-decoration: none;
+	font-size: 11pt;
+}
+
+p.Command-Line,
+p.commandline
+{
+	margin-bottom: 0pt;
+	font-size: 10pt;
+	font-family: 'Courier New';
+}
+
+p.code_indent
+{
+	margin-bottom: 0pt;
+	font-size: 10pt;
+	margin-left: 36pt;
+	font-family: 'Courier New';
+}
+
+p.code_indent_2
+{
+	margin-bottom: 0pt;
+	font-size: 10pt;
+	font-family: 'Courier New';
+	margin-left: 72pt;
+}
+
+p.CoverProductName
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #00005C;
+	font-size: 32pt;
+	line-height: 48pt;
+	vertical-align: 15pt;
+}
+
+p.CoverTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 28pt;
+	letter-spacing: 0em;
+	color: #4c3bc5;
+	text-indent: 0px;
+	line-height: 31pt;
+	text-decoration: none;
+}
+
+p.CoverVersion
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #4c3bc5;
+	text-indent: 0px;
+	line-height: 16pt;
+	text-decoration: none;
+}
+
+p.Footer
+{
+	margin-bottom: 0pt;
+	font-family: 'Open Sans';
+	font-size: 10pt;
+}
+
+p.note
+{
+	margin-bottom: 8pt;
+	font-size: 11pt;
+	font-family: Calibri;
+	margin-left: 36pt;
+}
+
+p.LegalHeading
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+p.LegalNotices_nomargin
+{
+	margin: 0;
+	padding: 0px;
+}
+
+p.SubtleReference
+{
+	color: #009BFF;
+	text-decoration: underline;
+	font-family: 'Open Sans';
+}
+
+p.TOCHeading
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	margin-bottom: 6pt;
+	font-weight: bold;
+	color: #00005C;
+	font-size: 16pt;
+	mc-heading-level: 10;
+	font-family: 'Open Sans';
+}
+
+p.TOC1
+{
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	margin-left: 0pt;
+	font-family: 'Open Sans';
+	font-size: 12pt;
+}
+
+p.TOC3
+{
+	font-size: 11pt;
+	margin-bottom: 0pt;
+	margin-left: 106pt;
+	font-family: Calibri;
+}
+
+p.warning,
+blockquote.warning
+{
+	margin-bottom: 8pt;
+	font-size: 11pt;
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #00005C;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: #00005C;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #00005C;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: #00005C;
+	font-family: Calibri;
+	color: #00005C;
+}
+
+p.zcellbody
+{
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	mc-hyphenate: never;
+	text-indent: 0px;
+}
+
+span.code
+{
+	font-size: 10pt;
+	font-family: 'Courier New';
+}
+
+span.SubtleReference
+{
+	color: #009BFF;
+	font-family: 'Open Sans';
+}
+
+sup
+{
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+table
+{
+	page-break-inside: avoid;
+}
+
+td
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	vertical-align: top;
+}
+
+th
+{
+	font-family: 'Open Sans', Calibri, 'Courier New';
+	font-face: bold;
+	font-size: 11pt;
+}
+
+thead
+{
+	font-family: 'Open Sans';
+	font-face: bold;
+}
+
+ul.indent1
+{
+	list-style-type: disc;
+	margin-left: 36pt;
+}
+
+ul.indent2
+{
+	list-style-type: circle;
+	margin-left: 72pt;
+}
+
+@media print
+{
+	MadCap|tocProxy
+	{
+		mc-heading-level: 0;
+	}
+
+	MadCap|xref.Heading_And_Page
+	{
+		mc-format: '{color #009bff}{family Open Sans}{paratext}{/family}{color black} on {color #009bff}page {color #009bff}{page}{/color}';
+	}
+
+	MadCap|xref
+	{
+		color: #009bff;
+	}
+
+	h1.Chapter_Title
+	{
+		mc-auto-number-format: 'Chapter {chapnum}. ';
+	}
+
+	h1.Appendix_Title
+	{
+		mc-auto-number-format: 'Appendix {chapnum}. ';
+	}
+
+	h1
+	{
+		color: #00005c;
+	}
+
+	h2
+	{
+		color: #00005c;
+		page-break-before: always;
+	}
+
+	li
+	{
+		margin-bottom: 8px;
+	}
+
+	ol
+	{
+		
+	}
+
+	ol.indent1
+	{
+		margin-left: 76pt;
+	}
+
+	ol.indent2
+	{
+		margin-left: 94pt;
+	}
+
+	ul
+	{
+		
+	}
+
+	ul.indent1
+	{
+		list-style-type: circle;
+		margin-left: 10pt;
+	}
+
+	ul.indent2
+	{
+		margin-left: 94pt;
+	}
+}
+
+MadCap|xref
+{
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.crossref
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
