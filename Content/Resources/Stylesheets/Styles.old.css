@@ -12,3 +12,11 @@ MadCap|xref
 	mc-format: '{file} {paratext}';
 }
 
+@media print
+{
+	p.TOC1
+	{
+		mc-heading-level: 1;
+	}
+}
+
