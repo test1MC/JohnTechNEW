@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MsWordImport PreserveMappedStyles="false" CreateNewStylesheet="True" InlineFormatting="Remove" UseFirstHeadingAsTopicTitle="True" UseMaxCharLimit="false" MaxCharLimit="10000" UseMinCharLimit="true" MinCharLimit="50" AddContinuedLinks="false" ContinuedLinkFormat="(continued in {title})" AddContinuedFromLinks="False" ContinuedFromLinkFormat="(continued from {title})" FilenameLength="24" AutoFitTables="False" UseHeaderRows="False" TableStyles="ProjectStyleSheet" UseListBullets="True" ConvertEquations="True" GeneratePageLayouts="False" PageBreaks="Ignore" KeepSourceLinks="true" AutoSync="False" Stylesheet="../../Content/Resources/Stylesheets/Styles.css" ImportFolder="wordimport" LastImport="2020-02-26T12:40:38.6024078-08:00">
+<MsWordImport PreserveMappedStyles="true" CreateNewStylesheet="false" InlineFormatting="Convert" UseFirstHeadingAsTopicTitle="True" UseMaxCharLimit="false" MaxCharLimit="10000" UseMinCharLimit="true" MinCharLimit="50" AddContinuedLinks="false" ContinuedLinkFormat="(continued in {title})" AddContinuedFromLinks="False" ContinuedFromLinkFormat="(continued from {title})" FilenameLength="24" AutoFitTables="False" UseHeaderRows="False" TableStyles="ProjectStyleSheet" UseListBullets="True" ConvertEquations="True" GeneratePageLayouts="False" PageBreaks="Ignore" KeepSourceLinks="false" AutoSync="False" Stylesheet="../../Content/Resources/Stylesheets/Styles.css" ImportFolder="wordimport" LastImport="2020-02-26T12:40:38.6024078-08:00">
     <Files>
-        <Url Source="../../Content/wordimport/GloriaK.docx" AbsoluteSource="file:///C:/Users/jcastaneda/Documents/My Projects/ProjectTest/Content/wordimport/GloriaK.docx" />
+        <Url Source="../../../../TEXTS.docx" AbsoluteSource="file:///C:/Users/jcastaneda/Documents/TEXTS.docx" />
     </Files>
     <ExcludedFiles />
     <CollectedSourceFiles />
@@ -15,7 +15,13 @@
         <Url Source="../../Content/Resources/Stylesheets/MSWORD.css" TimeStamp="2/26/2020 12:40:36 PM" />
     </GeneratedFiles>
     <ParagraphStyles>
-        <Map From="Heading 1" To="h1" Style="Flare" />
+        <Map From="Heading 2" To="h2" Style="Flare" />
+        <Map From="Heading 3" To="h3" Style="Flare" />
+        <Map From="Heading 4" To="h4" Style="Flare" />
+        <Map From="Heading 5" To="h5" Style="Flare" />
+        <Map From="No Spacing" To="p.NoSpacing" Style="Word" />
+        <Map From="Style1" To="p.Style1" Style="Word" />
+        <Map From="Title" To="p.Title" Style="Word" />
     </ParagraphStyles>
     <CharacterStyles />
     <NewTopicStyles />

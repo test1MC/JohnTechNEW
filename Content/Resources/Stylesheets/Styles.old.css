@@ -18,5 +18,15 @@ MadCap|xref
 	{
 		mc-heading-level: 1;
 	}
+
+	tr.short
+	{
+		page-break-inside: avoid;
+	}
+}
+
+tr.short
+{
+	
 }
 

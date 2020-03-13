@@ -1,32 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ConfluenceImport
-  ImportFolder="wordimport"
-  Server="https://rndconfluence.madcapsoftware.com/"
-  RemoveInlineFormatting="true"
-  KeepSourceLinks="false"
-  ImportResources="true"
-  RemoveStyleClasses="true"
-  ImportTopics="content"
-  SelectedSpace="MFIS"
-  LastImport="2020-02-21T10:16:12.2248305-08:00"
-  ImportTopicsLocation="Content/wordimport">
-  <Files>
-    <Url
-      Source="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5275677"
-      AbsoluteSource="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5275677" />
-  </Files>
-  <ExcludedFiles />
-  <CollectedSourceFiles />
-  <SkippedSourceFiles />
-  <GeneratedFiles>
-    <Url
-      Source="../../Content/wordimport/Page_Title.htm"
-      TimeStamp="2/21/2020 10:16:04 AM" />
-    <Url
-      Source="../TOCs/Confluence.fltoc"
-      TimeStamp="2/21/2020 10:16:12 AM" />
-    <Url
-      Source="../../Content/Resources/Images/flare-chrome-144x144.png"
-      TimeStamp="2/21/2020 10:16:04 AM" />
-  </GeneratedFiles>
+<ConfluenceImport ImportFolder="wordimport" Server="https://rndconfluence.madcapsoftware.com/" RemoveInlineFormatting="true" KeepSourceLinks="false" ImportResources="true" RemoveStyleClasses="true" ImportTopics="content" SelectedSpace="~qaadmin" LastImport="2020-02-21T10:16:12.2248305-08:00" ImportTopicsLocation="Content/wordimport" ImportLinkedHtmlFiles="false">
+    <Files>
+        <Url Source="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5275755" AbsoluteSource="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5275755" />
+        <Url Source="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5276012" AbsoluteSource="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5276012" />
+        <Url Source="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5276128" AbsoluteSource="https://rndconfluence.madcapsoftware.com/pages/viewpage.action?pageId=5276128" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles />
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="../../Content/wordimport/Page_Title.htm" TimeStamp="2/21/2020 10:16:04 AM" />
+        <Url Source="../TOCs/Confluence.fltoc" TimeStamp="2/21/2020 10:16:12 AM" />
+        <Url Source="../../Content/Resources/Images/flare-chrome-144x144.png" TimeStamp="2/21/2020 10:16:04 AM" />
+    </GeneratedFiles>
 </ConfluenceImport>

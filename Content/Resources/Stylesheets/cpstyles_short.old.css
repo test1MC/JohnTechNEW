@@ -1,0 +1,1385 @@
+/*<meta />*/
+
+@import url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Stylesheets/Local_Stylesheet.css');
+
+/*This is a link to a local CSS Stylesheet that can be created and used in projects to override / add styles from the Master CSS*/
+
+@font-face 
+{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(OpenSansNormal.woff) format('woff');
+}
+
+/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+
+@font-face 
+{
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src: url(OpenSansNormal.woff) format('woff');
+}
+
+/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+
+@font-face 
+{
+	font-family: 'Open Sans Semibold';
+	font-style: normal;
+	font-weight: 600;
+	src: url(OpenSansSemibold.woff) format('woff');
+}
+
+/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+
+@font-face 
+{
+	font-family: 'Open Sans Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(OpenSansBold.woff) format('woff');
+}
+
+/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+/*======================================================================*/
+/*======================================================================*/
+/* STYLES THAT MUST BE HIDDEN BECAUSE WE DO NOT USE THEM */
+/*======================================================================*/
+/*======================================================================*/
+
+abbr	/*https://www.w3schools.com/tags/tag_abbr.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+acronym	/*https://www.w3schools.com/tags/tag_acronym.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+address	/*https://www.w3schools.com/tags/tag_address.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+b	/*MadCap Flare Support Case 153122 - For Side Navigation and Top Navigation, this style (https://www.w3schools.com/tags/tag_b.asp) is used to highlight the search results in the HTML output*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-size: 1.2em;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	background-color: #FFFF00;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+}
+
+big	/*https://www.w3schools.com/tags/tag_big.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+blockquote	/*https://www.w3schools.com/tags/tag_blockquote.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+cite	/*https://www.w3schools.com/tags/tag_cite.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+dd	/*https://www.w3schools.com/tags/tag_dd.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+del	/*https://www.w3schools.com/tags/tag_del.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+dir	/*https://www.w3schools.com/tags/tag_dir.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+dl	/*https://www.w3schools.com/tags/tag_dl.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+dt	/*https://www.w3schools.com/tags/tag_dt.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+fieldset	/*https://www.w3schools.com/tags/tag_fieldset.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+form	/*https://www.w3schools.com/tags/tag_form.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+i	/*https://www.w3schools.com/tags/tag_i.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+ins	/*https://www.w3schools.com/tags/tag_ins.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+kbd	/*https://www.w3schools.com/tags/tag_kbd.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+label	/*https://www.w3schools.com/tags/tag_label.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+map	/*This style (https://www.w3schools.com/tags/tag_map.asp) is used for Image Map*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+menu	/*https://www.w3schools.com/tags/tag_menu.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+nav	/*https://www.w3schools.com/tags/tag_nav.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+noframes	/*https://www.w3schools.com/tags/tag_noframes.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+optgroup	/*https://www.w3schools.com/tags/tag_optgroup.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+option	/*https://www.w3schools.com/tags/tag_option.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+q	/*https://www.w3schools.com/tags/tag_q.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+s	/*https://www.w3schools.com/tags/tag_s.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+samp	/*https://www.w3schools.com/tags/tag_samp.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+section	/*https://www.w3schools.com/tags/tag_section.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+select	/*https://www.w3schools.com/tags/tag_select.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+small	/*https://www.w3schools.com/tags/tag_small.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span.boolean	/*https://www.w3schools.com/tags/tag_input.asp + https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span.state	/*https://www.w3schools.com/tags/tag_input.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+strike	/*https://www.w3schools.com/tags/tag_strike.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+tt	/*https://www.w3schools.com/tags/tag_tt.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+var	/*https://www.w3schools.com/tags/tag_var.asp*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|helpControlList	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|helpControlListItem	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|helpControlListItemLink	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|helpControlMenu	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|helpControlMenuItem	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|slide	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Slideshows/Editing-Slideshow-Styles.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|slideshow	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Slideshows/Editing-Slideshow-Styles.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|slideshowBullet	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Slideshows/Editing-Slideshow-Styles.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|slideshowCaption	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Slideshows/Editing-Slideshow-Styles.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|slideThumbnail	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Slideshows/Editing-Slideshow-Styles.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|model3D	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Multimedia/3D-Models/3D-Models.htm*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span	/*https://www.w3schools.com/tags/tag_span.asp*/
+{
+	mc-hyphenate: never;
+	mc-hidden: hidden;
+}
+
+/*======================================================================*/
+/*======================================================================*/
+/* SPECIFIC SETTINGS FOR PRINTED OUTPUT */
+/*======================================================================*/
+/*======================================================================*/
+
+@media print
+{
+	MadCap|xref	/*Controls how Cross-References are displayed in Printed output - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	{
+		color: blue;
+		/*Controls the color of Cross-References in Printed output*/
+		mc-format: '{quote}{paratext}{quote} {pageref}';
+		/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	MadCap|dropDownHotspot	/*Controls the Drop-Down Hotspot in Printed output - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	{
+		color: black;
+		/*Controls the color of the Drop-Down Hotspot in Printed output*/
+	}
+
+	img.Limit_Width_in_Print_16cm	/*This class has to be applied to all images, whose original width exceeds 16 cm by a couple of centimeters*/
+	{
+		min-width: auto;
+		/*For Printed output only - controls the minimal width of the image - https://www.w3schools.com/cssref/pr_dim_min-width.asp*/
+		max-width: 160mm;
+		/*For Printed output only - controls the maximal width of the image - https://www.w3schools.com/cssref/pr_dim_max-width.asp*/
+	}
+
+	img.Limit_Width_in_Print_14cm	/*This class has to be applied to all images, whose original width exceeds 14 cm by a couple of centimeters*/
+	{
+		min-width: auto;
+		/*For Printed output only - controls the minimal width of the image - https://www.w3schools.com/cssref/pr_dim_min-width.asp*/
+		max-width: 140mm;
+		/*For Printed output only - controls the maximal width of the image - https://www.w3schools.com/cssref/pr_dim_max-width.asp*/
+	}
+
+	img.Limit_Width_in_Print_12cm	/*This class has to be applied to all images, whose original width exceeds 12 cm by a couple of centimeters*/
+	{
+		min-width: auto;
+		/*For Printed output only - controls the minimal width of the image - https://www.w3schools.com/cssref/pr_dim_min-width.asp*/
+		max-width: 120mm;
+		/*For Printed output only - controls the maximal width of the image - https://www.w3schools.com/cssref/pr_dim_max-width.asp*/
+	}
+
+	img.Limit_Width_in_Print_10cm	/*This class has to be applied to all images, whose original width exceeds 10 cm by a couple of centimeters*/
+	{
+		min-width: auto;
+		/*For Printed output only - controls the minimal width of the image - https://www.w3schools.com/cssref/pr_dim_min-width.asp*/
+		max-width: 100mm;
+		/*For Printed output only - controls the maximal width of the image - https://www.w3schools.com/cssref/pr_dim_max-width.asp*/
+	}
+
+	.Force_Page_Break_Before_and_Inside	/*Style to force page break before and inside the element in Printed output - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar*/
+	{
+		page-break-before: always;
+		/*https://www.w3schools.com/cssref/pr_print_pagebb.asp*/
+		page-break-inside: always;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	}
+
+	.Force_Page_Break_Inside_Element	/*Style to force page break inside the element in Printed output - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar*/
+	{
+		page-break-inside: always;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	}
+
+	.No_Page_Break_Inside	/*Style to avoid page break inside the element in Printed output - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar*/
+	{
+		column-break-inside: avoid;
+		frame-break-inside: avoid;
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		widows: 3;
+		/*controls how may items should appear on the next page - https://www.w3schools.com/jsref/prop_style_widows.asp*/
+		orphans: 3;
+		/*controls how may items should appear on the previous page - https://www.w3schools.com/jsref/prop_style_orphans.asp*/
+	}
+
+	.Exclude_from_Printed_TOC	/*Style to exclude topics from Printed TOC - must be applied to the main H1 - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar*/
+	{
+		mc-heading-level: 0;
+		/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	e MadCap|xref.PageNumberOnly	/*Controls how Cross-Reference's page number is displayed in Printed output*/
+	{
+		mc-format: '{page}';
+		/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h1	/*Heading 1 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h2	/*Heading 2 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h3	/*Heading 3 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h4	/*Heading 4 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h5	/*Heading 5 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	h6	/*Heading 6 - https://www.w3schools.com/tags/tag_hn.asp*/
+	{
+		padding-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	MadCap|bodyProxy	/*Control the look of the "container" holding topic content - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	{
+		margin-top: 0;
+		/*In HTML output, this can be set to some value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_margin-top.asp*/
+	}
+
+	table	/*Style for table captions that are repeated on the next page in Printed output*/
+	{
+		mc-caption-repeat: true;
+		/*repeat the caption on the next page - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+		mc-caption-continuation: ' (continued)';
+		/*text that is added after the Caption Text - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	tr	/*Style to avoid page break inside the table row in Printed output*/
+	{
+		page-break-inside: avoid;
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	td	/*Style to avoid page break inside the table cell in Printed output*/
+	{
+		/*page-break-inside: avoid;*/
+		/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+		mc-hyphenate: never;
+		/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	}
+
+	img
+	{
+		max-width: 100%;
+		/*For Printed output only - controls the maximal width of the image, so it does not bleed from the page - https://www.w3schools.com/cssref/pr_dim_max-width.asp*/
+	}
+
+	MadCap|dropDownHead
+	{
+		padding-top: 0;
+		/*In HTML output, this is set to a specific value. In Printed output this must always be overriden to 0. See https://www.w3schools.com/cssref/pr_padding-top.asp*/
+		text-transform: uppercase;
+	}
+}
+
+/*======================================================================*/
+/*======================================================================*/
+/* SETTINGS THAT APPLTY TO BOTH HTML AND PRINTED OUTPUT */
+/*======================================================================*/
+/*======================================================================*/
+
+h1	/*Heading 1 - https://www.w3schools.com/tags/tag_hn.asp*/
+{
+	color: #2E3F58;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-size: 41px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: normal;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	font-style: normal;
+	/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+	line-height: 43px;
+	/*https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	page-break-before: always;
+	/*https://www.w3schools.com/cssref/pr_print_pagebb.asp*/
+	padding-top: 0%;
+	/*Can be used to force a space between the top non-scrolling region and the heading - should NOT be set for H1*/
+}
+
+h2	/*Heading 2*/
+{
+	color: #2E3F58;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-size: 30px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	line-height: 43px;
+	/*https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding-top: 0%;
+	/*Can be used to force a space between the top non-scrolling region and the heading*/
+}
+
+h3	/*Heading 3*/
+{
+	font-size: 24px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding-top: 0%;
+	/*Can be used to force a space between the top non-scrolling region and the heading - https://www.w3schools.com/cssref/pr_padding-top.asp*/
+}
+
+h4	/*Heading 4*/
+{
+	font-size: 20px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding-top: 0%;
+	/*Can be used to force a space between the top non-scrolling region and the heading - https://www.w3schools.com/cssref/pr_padding-top.asp*/
+}
+
+h5	/*Heading 5*/
+{
+	font-size: 16px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+h6	/*Heading 6*/
+{
+	font-size: 14px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+body,
+p,
+li
+{
+	color: #333333;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-family: "Open Sans", Segoe UI Light, Segoe UI, Calibri, Arial;
+	/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+	font-size: 14px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+}
+
+body	/*Configuration for Watermark image for HTML output only - select (or delete) an image to apply (or remove) a watermark image*/
+{
+	background-attachment: fixed;
+	/*https://www.w3schools.com/cssref/pr_background-attachment.asp*/
+	background-position: center;
+	/*https://www.w3schools.com/cssref/pr_background-position.asp*/
+	background-repeat: no-repeat;
+	/*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
+	background-size: contain;
+	/*https://www.w3schools.com/cssref/css3_pr_background-size.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+p	/*Style for Paragraph*/
+{
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	orphans: 3;
+	widows: 3;
+}
+
+p.Important_Information_Headlines	/*Style for headlines in the Important Information topic*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-size: 12pt;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+p.Procedure_Heading	/*Style for Procedure Headings*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	padding-top: 15px;
+	/*https://www.w3schools.com/cssref/pr_padding-top.asp*/
+	page-break-after: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pageba.asp*/
+}
+
+p.h7	/*Workaround for Heading 7 used in Author-It*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	color: red;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-size: 14px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+p.h8	/*Workaround for Heading 8 used in Author-It*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	color: red;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-size: 14px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+p.h9	/*Workaround for Heading 9 used in Author-It*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	color: red;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-size: 14px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+code
+{
+	font-family: monospace;
+	/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+	word-break: break-all;
+	/*To prevent overflow, word may be broken at any character*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+pre
+{
+	margin: 0px;
+	/*https://www.w3schools.com/cssref/pr_margin.asp*/
+	word-break: break-all;
+	/*To prevent overflow, word may be broken at any character*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+em
+{
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+strong
+{
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+img	/*Style for images*/
+{
+	vertical-align: middle;
+	/*https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
+}
+
+img.Show_Thumbnail_in_HTML	/*This class has to be applied to all large images to show them as thumbnails in HTML output - when mouse hovers over such thumbnail, the image is shown in full size (limited by the size of the popup window)*/
+{
+	mc-thumbnail: hover;
+	/*For HTML output only - show a pop-up on mouse hover - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-thumbnail-max-height: 30mm;
+	/*For HTML output only - maximal height of the thumbnail image - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	min-width: auto;
+	/*For Printed output only - controls the minimal width of the image - https://www.w3schools.com/cssref/pr_dim_min-width.asp*/
+	border: solid 1px #a9a9a9;
+	/*https://www.w3schools.com/cssref/pr_border.asp*/
+}
+
+ul	/*Bulleted list - 1st level - Square (because it is the largest)*/
+{
+	list-style-type: square;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+	padding-inline-start: 30px;
+	/*https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start*/
+}
+
+ul ul	/*Bulleted list is nested inside the Bulleted list - 2nd level - Disc*/
+{
+	list-style-type: disc;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+}
+
+ul ul ul	/*Bulleted list is nested inside the Bulleted list - 3rd level - Circle*/
+{
+	list-style-type: circle;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+}
+
+ol	/*Numbered list - 1st level - Decimal*/
+{
+	list-style-type: decimal;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+	padding-inline-start: 30px;
+	/*https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start*/
+}
+
+ol ol	/*Numbered list is nested inside the Numbered list - 2nd level - Lower-Alpha*/
+{
+	list-style-type: lower-alpha;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+}
+
+ol ol ol	/*Numbered list is nested inside the Numbered list - 3rd level - Lower-Roman*/
+{
+	list-style-type: lower-roman;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+}
+
+li	/*Style to avoid page break inside the nested List Items (1st level)*/
+{
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+li li	/*Style to avoid page break inside the nested List Items (2nd level)*/
+{
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+li li li	/*Style to avoid page break inside the nested List Items (3rd level)*/
+{
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+td.Cell_with_Borders	/*Style to make a textbox from a table cell*/
+{
+	border: solid 2px #000000;
+	/*https://www.w3schools.com/cssref/pr_border.asp*/
+	mc-hyphenate: never;
+	/*Avoid hyphenatation inside the style - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding: 2px;
+	/*https://www.w3schools.com/cssref/pr_padding.asp*/
+	text-align: center;
+	/*https://www.w3schools.com/cssref/pr_text_text-align.asp*/
+	vertical-align: middle;
+	/*https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
+}
+
+td.Vertical_Text_in_Table_Cell	/*Style to show the text vertically in a table cell - from bottom to top; to tilt your head to the left, use -90deg; to tilt your head to the right, use 90deg;*/
+{
+	position: absolute;
+	/*https://www.w3schools.com/cssref/pr_class_position.asp*/
+	transform: rotate(-90deg);
+	/*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
+}
+
+table.Center_on_Page	/*Style to show the table in the center of the page*/
+{
+	margin-left: auto;
+	/*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+	margin-right: auto;
+	/*https://www.w3schools.com/cssref/pr_margin-right.asp*/
+}
+
+caption	/*Style for table captions*/
+{
+	display: table-caption;
+	/*https://www.w3schools.com/cssref/pr_class_display.asp*/
+	text-align: left;
+	/*https://www.w3schools.com/cssref/pr_text_text-align.asp*/
+	caption-side: top;
+	/*https://www.w3schools.com/cssref/pr_tab_caption-side.asp*/
+}
+
+MadCap|xref	/*Controls how Cross-References are displayed - there are different settings for DEFAULT (HTML) and PRINT mediums */
+{
+	mc-format: '{paratext}';
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	color: blue;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-style: italic;
+	/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+}
+
+MadCap|xref:hover	/*Controls how mouse cursor changes when hovering over Cross-References in HTML output*/
+{
+	cursor: hand;
+	/*https://www.w3schools.com/cssref/pr_class_cursor.asp*/
+}
+
+MadCap|dropDown	/*Affects the entire container holding a drop-down effect, including the image that is shown when a drop-down effect is open or closed*/
+{
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Drop_Down_Large_Arrow_Closed.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Drop_Down_Large_Arrow_Open.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|dropDown.Level1	/*Uses different arrow images than the default Drop-Down level*/
+{
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level1_Arrow_closed.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level1_Arrow_open.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-color: #F3F4F4;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+}
+
+MadCap|dropDown.Level2	/*Uses different arrow images than the Drop-Down level 1*/
+{
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level2_Arrow_closed.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level2_Arrow_open.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-color: #DEDEDE;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+}
+
+MadCap|dropDown.Level3	/*Uses different arrow images than the Drop-Down level 2*/
+{
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level3_Arrow_closed.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Drop-Down/Level3_Arrow_open.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-color: #CCCCCC;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+}
+
+MadCap|dropDownHead	/*Affects the entire container holding a drop-down hotspot (i.e., the paragraph where the drop-down link is located)*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	padding-bottom: 1%;
+	/*https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+	padding-top: 1%;
+	/*https://www.w3schools.com/cssref/pr_padding-top.asp*/
+	page-break-after: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pageba.asp*/
+	text-transform: uppercase;
+}
+
+MadCap|dropDownHotspot	/*Affects the text in the first paragraph of a drop-down effect that serves as the link for opening the drop-down body*/
+{
+	color: black;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	cursor: hand;
+	/*https://www.w3schools.com/cssref/pr_class_cursor.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp - had to explicitly configure this style for MadCap|dropDownHotspot, although this style was already configured in MadCap|dropDownHead, because in WORD output this text sometimes appears as normal (NOT bold)*/
+}
+
+MadCap|dropDownHotspot:link	/*Affects the link text in the first paragraph of a drop-down element*/
+{
+	/*https://www.w3schools.com/cssref/pr_text_text-transform.asp*/
+}
+
+MadCap|dropDownBody	/*Affects the content that is shown when users open the drop-down block*/
+{
+	padding-bottom: 1%;
+	/*https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+	margin-left: 3%;
+	/*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+}
+
+MadCap|expanding	/*Affects the entire container holding an expanding text effect, including the image that is shown when an expanding text effect is open or closed.*/
+{
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Expanding-Text/Expanding_Text_Arrow_Closed.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-image-position: left;
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Expanding-Text/Expanding_Text_Arrow_Open.png');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+MadCap|expandingHead	/*Affects the hotspot portion of an expanding text effect.*/
+{
+	cursor: hand;
+	/*https://www.w3schools.com/cssref/pr_class_cursor.asp*/
+	color: #546C7F;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+}
+
+MadCap|expandingBody	/*Affects the expanded text portion of an expanding text effect (i.e., the area that is displayed or hidden when users click the hotspot link).*/
+{
+	color: inherit;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+}
+
+MadCap|miniTocProxy	/*Affects the Mini-TOC Proxy */
+{
+	mc-conditions: 'Condition-Tag-Set-Output.PDF_only';
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	border-bottom: solid 2px black;
+	/*https://www.w3schools.com/cssref/pr_border-bottom.asp*/
+	border-top: solid 2px black;
+	/*https://www.w3schools.com/cssref/pr_border-top.asp*/
+	margin-bottom: 10px;
+	/*https://www.w3schools.com/cssref/pr_margin-bottom.asp*/
+	padding-bottom: 10px;
+	/*https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+}
+
+MadCap|breadcrumbsProxy	/*Affects the Breadcrumbs Proxy */
+{
+	margin-top: -5px;
+	/*https://www.w3schools.com/cssref/pr_margin-top.asp*/
+}
+
+MadCap|glossaryProxy	/*Controls the Glossary Proxy*/
+{
+	border-top: none;
+	/*Removes the top border, which is added by default - https://www.w3schools.com/cssref/pr_border-top.asp*/
+}
+
+MadCap|glossaryTerm	/*Affects the glossary term links */
+{
+	color: #00008B;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	mc-closed-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Glossary/GlossaryTermLinkExpandingClosed.gif');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	mc-open-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Glossary/GlossaryTermLinkExpandingOpen.gif');
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding-right: 15px;
+	/*https://www.w3schools.com/cssref/pr_padding-right.asp*/
+}
+
+div.GlossaryPageHeading	/*Controls the Glossary Heading*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-size: 16px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	text-align: left;
+	/*https://www.w3schools.com/cssref/pr_text_text-align.asp*/
+	border-bottom-color: black;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+	border-bottom-style: solid;
+	/*https://www.w3schools.com/cssref/pr_border-bottom_style.asp*/
+	border-bottom-width: 1px;
+	/*https://www.w3schools.com/cssref/pr_border-bottom_width.asp*/
+	margin-bottom: 10pt;
+	/*https://www.w3schools.com/cssref/pr_margin-bottom.asp*/
+	margin-left: 0pt;
+	/*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+	margin-top: 20pt;
+	/*https://www.w3schools.com/cssref/pr_margin-top.asp*/
+	column-break-after: avoid;
+	page-break-after: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pageba.asp*/
+	mc-heading-format: '{A}';
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	padding-bottom: 10pt;
+	/*https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+}
+
+div.GlossaryPageEntry	/*Controls the Glossary Container that holds each glossary term or definition group*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	margin-bottom: 12pt;
+	/*https://www.w3schools.com/cssref/pr_margin-bottom.asp*/
+	mc-expandable: true;
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+}
+
+div.GlossaryPageTerm	/*Controls the Glossary Term in Printed Output*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	column-break-after: avoid;
+	page-break-after: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pageba.asp*/
+	mc-expandable: true;
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-size: 15px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+}
+
+div.GlossaryPageDefinition	/*Controls the Glossary Definition*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	column-break-before: avoid;
+	page-break-before: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebb.asp*/
+	mc-expandable: true;
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	margin-left: 20px;
+	/*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+	padding-bottom: 20px;
+	/*https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+}
+
+a.GlossaryPageTerm	/*Controls the Glossary Term in HTML Output*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	font-size: 15px;
+	/*https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+}
+
+li.GlossaryPageEntry	/*Special style to indent and also not to show the bullets in the Glossary topic in HTML Output*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	margin-left: 20px;
+	/*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+	list-style-type: none;
+	/*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+}
+
+div.Top_NonScrolling_Region	/*Style for top non-scrolling region that contains Breadcrumbs and Topic Toolbar*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-color: #FFFFFF;
+	/*https://www.w3schools.com/cssref/pr_background-color.asp*/
+	position: sticky;
+	/*The element is positioned based on the user's scroll position; A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). See https://www.w3schools.com/cssref/pr_class_position.asp*/
+	height: 15%;
+	/*Controls the height of an element - in percent of the containing block - https://www.w3schools.com/cssref/pr_dim_height.asp*/
+	padding-top: 1%;
+	/*Controls the top padding (space) of an element - in percent of the width of the element - https://www.w3schools.com/cssref/pr_padding-top.asp*/
+	padding-bottom: 1%;
+	/*Controls the bottom padding (space) of an element - in percent of the width of the element - https://www.w3schools.com/cssref/pr_padding-bottom.asp*/
+	top: -3%;
+	/*Controls the vertical position of the top edge - behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside - https://www.w3schools.com/cssref/pr_pos_top.asp*/
+	width: 100%;
+	/*Controls the width of an element - in percent of the containing block - https://www.w3schools.com/cssref/pr_dim_width.asp*/
+}
+
+div.Footer_in_HTML__TopOfPage	/*Style for footer at the bottom of HTML output to show the clickable image 'Top of Page'*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Master-Page/HTML/Page_Top.png');
+	/*Controls the image - https://www.w3schools.com/cssref/pr_background-image.asp*/
+	height: 24px;
+	/*Controls the height of an element - in pixels - https://www.w3schools.com/cssref/pr_dim_height.asp*/
+	width: 24px;
+	/*Controls the width of an element - in pixels - https://www.w3schools.com/cssref/pr_dim_width.asp*/
+	position: fixed;
+	/*The element is positioned relative to the browser window - https://www.w3schools.com/cssref/pr_class_position.asp*/
+	right: 5%;
+	/*Controls the horizontal position of the right edge - sets the position to a unit to the right of the right edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_right.asp*/
+	bottom: 7%;
+	/*Controls the vertical position of the bottom edge - sets the position to a unit above/below the bottom edge of its nearest positioned ancestor*/
+}
+
+div.Footer_in_HTML__Container	/*Style for footer at the bottom of HTML output to show the publish date (controlled by the style "div.Footer_in_HTML__Date") and the copyright link (controlled by the style "div.Footer_in_HTML__Copyright_link")*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-size: 10px;
+	/*Controls the font size - https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	background-color: #FFFFFF;
+	/*Controls the background color - https://www.w3schools.com/cssref/pr_background-color.asp*/
+	border-top: #BDBDBD 1px dotted;
+	/*Controls the vertical border - https://www.w3schools.com/cssref/pr_border-top.asp*/
+	position: fixed;
+	/*The element is positioned relative to the browser window - https://www.w3schools.com/cssref/pr_class_position.asp*/
+	bottom: 0%;
+	/*Controls the vertical position of the bottom edge - sets the position to a unit above/below the bottom edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_bottom.asp*/
+	left: 0%;
+	/*Controls the horizontal position of the left edge - sets the position to a unit to the left of the left edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_left.asp*/
+	right: 0%;
+	/*Controls the horizontal position of the right edge - sets the position to a unit to the right of the right edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_right.asp*/
+	height: 5%;
+	/*Controls the height of an element - in percent of the containing block - https://www.w3schools.com/cssref/pr_dim_height.asp*/
+	width: 100%;
+	/*Controls the width of an element - in percent of the containing block - https://www.w3schools.com/cssref/pr_dim_width.asp*/
+}
+
+div.Footer_in_HTML__Date	/*Style for footer at the bottom of HTML output to format the publish date*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	position: absolute;
+	/*The element is positioned relative to its first positioned (not static) ancestor element - https://www.w3schools.com/cssref/pr_class_position.asp*/
+	left: 2%;
+	/*Controls the horizontal position of the left edge - sets the position to a unit to the left of the left edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_left.asp*/
+	top: 35%;
+	/*Controls the vertical position of the top edge - sets the position to a unit above/below the top edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_top.asp*/
+}
+
+div.Footer_in_HTML__Copyright_link	/*Style for footer at the bottom of HTML output to format the copyright link*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	position: absolute;
+	/*The element is positioned relative to its first positioned (not static) ancestor element - https://www.w3schools.com/cssref/pr_class_position.asp*/
+	right: 2%;
+	/*Controls the horizontal position of the right edge - sets the position to a unit to the right of the right edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_right.asp*/
+	top: 35%;
+	/*Controls the vertical position of the top edge - sets the position to a unit above/below the top edge of its nearest positioned ancestor - https://www.w3schools.com/cssref/pr_pos_top.asp*/
+	width: 75%;
+	/*Controls the width of an element - in percent of the containing block - https://www.w3schools.com/cssref/pr_dim_width.asp*/
+	text-align: right;
+	/*https://www.w3schools.com/cssref/pr_text_text-align.asp*/
+}
+
+div.No_Page_Break_Inside	/*Style to avoid page break inside the element in Printed output - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar - this style will automatically appear in the "Create Group" window*/
+{
+	column-break-inside: avoid;
+	frame-break-inside: avoid;
+	page-break-inside: avoid;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+	widows: 3;
+	/*controls how may items should appear on the next page - https://www.w3schools.com/jsref/prop_style_widows.asp*/
+	orphans: 3;
+	/*controls how may items should appear on the previous page - https://www.w3schools.com/jsref/prop_style_orphans.asp*/
+}
+
+div.Force_Page_Break_Before_and_Inside	/*Style to force page break before and inside the element in Printed output - will appear in the Style List only if you select Medium (print) at the top of the topic's toolbar*/
+{
+	page-break-before: always;
+	/*https://www.w3schools.com/cssref/pr_print_pagebb.asp*/
+	page-break-inside: always;
+	/*https://www.w3schools.com/cssref/pr_print_pagebi.asp*/
+}
+
+.Menu_Options	/*Style for GUI element headings*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	color: #2E3F58;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+}
+
+.TP_Comment	/*Style for Internal TP comments*/
+{
+	color: #228B22;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	mc-conditions: 'Condition-Tag-Set-Output.TP_COMMENT';
+	/*https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	font-family: Arial;
+	/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+}
+
+.Note	/*Style for Notes*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+.Important_Note	/*Style for Important Notes*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+.Table_Filter_Input	/*This class is used in the INPUT field in the Table Filter code*/
+{
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+	background-image: url('../../../../../../Desktop/ticket files/sergeishir/Case_S012144/Content/Resources/Images/Miscellaneous/SearchIcon.png');
+	/*Controls the image - https://www.w3schools.com/cssref/pr_background-image.asp*/
+	background-position: 10px 10px;
+	/*position of the search icon - https://www.w3schools.com/cssref/pr_background-position.asp*/
+	background-repeat: no-repeat;
+	/*the search icon is not repeated - https://www.w3schools.com/cssref/pr_background-repeat.asp*/
+	border: 1px solid #ddd;
+	/*border of the search filter - https://www.w3schools.com/cssref/pr_border.asp*/
+	font-size: 12px;
+	/*font size of the placeholder text in the search filter - https://www.w3schools.com/cssref/pr_font_font-size.asp*/
+	padding: 10px 20px 10px 40px;
+	/*text padding inside the search filter - https://www.w3schools.com/cssref/pr_padding.asp*/
+	width: 60%;
+	/*width of the search filter - https://www.w3schools.com/cssref/pr_dim_width.asp*/
+}
+
+span.Variable_Code	/*(Case 156512) Special style to apply the Code (monspace) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-family: monospace;
+	/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span.Variable_Emphasis	/*(Case 156512) Special style to apply the Emphasis (italic) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-style: italic;
+	/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span.Variable_Strong	/*(Case 156512) Special style to apply the Strong (bold) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	mc-hidden: hidden;
+	/*hides the class from the Flare interface - will still appear in the Stylesheet Editor - https://help.madcapsoftware.com/flare2019/Content/Flare/Styles/Using-Styles/MadCap-Specific-Styles-Properties.htm*/
+}
+
+span.Variable_Menu_Options	/*(Case 156512) Special style to apply the Menu Options style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	color: #2E3F58;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+	mc-hidden: hidden;
+}
+
+MadCap|variable.Variable_Code	/*(Case 156512) Special style to apply the Code (monspace) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable styl*/
+{
+	font-family: monospace;
+	/*https://www.w3schools.com/cssref/pr_font_font-family.asp*/
+}
+
+MadCap|variable.Variable_Emphasis	/*(Case 156512) Special style to apply the Emphasis (italic) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-style: italic;
+	/*https://www.w3schools.com/cssref/pr_font_font-style.asp*/
+}
+
+MadCap|variable.Variable_Strong	/*(Case 156512) Special style to apply the Strong (bold) style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+MadCap|variable.Variable_Menu_Options	/*(Case 156512) Special style to apply the Menu Options style only to the variable - must create the required class inside the SPAN style and also inside the MadCap|variable style*/
+{
+	font-weight: bold;
+	/*https://www.w3schools.com/cssref/pr_font_weight.asp*/
+	color: #2E3F58;
+	/*https://www.w3schools.com/cssref/pr_text_color.asp*/
+}
+
+/*======================================================================*/
+/* MADCAP CASE S000542 - SCROLL BARS IN MOBILE VIEW */
+/*======================================================================*/
+
+div.Show_Horizontal_Scrollbar	/*Must wrap the relevant element in DIV and apply this style to the DIV - this style will automatically appear in the "Create Group" window*/
+{
+	overflow-x: auto;
+	/*https://www.w3schools.com/cssref/css3_pr_overflow-x.asp*/
+}
+
+/*Controls the style of the scrollbar of an element*/
+
+::-webkit-scrollbar
+{
+	-webkit-appearance: none;
+}
+
+/*Width of the vertical scrollbar*/
+
+::-webkit-scrollbar:vertical
+{
+	width: 12px;
+}
+
+/*Height of the horizontal scrollbar*/
+
+::-webkit-scrollbar:horizontal
+{
+	height: 12px;
+}
+
+/*Scrollbar draggable scrolling handle*/
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	border: 2px solid #FFFFFF;
+}
+
+/*Scrollbar track (progress bar)*/
+
+::-webkit-scrollbar-track
+{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+/*======================================================================*/
+/* CASE S000542 - HORIZONTAL SCROLL BAR IN MOBILE VIEW */
+/*======================================================================*/
+

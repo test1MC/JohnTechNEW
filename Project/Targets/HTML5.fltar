@@ -11,7 +11,7 @@
   TopNavTocPath="false"
   ReplaceSpacesWithUnderscores="true"
   DefaultUrl="/Content/Default/Home.htm"
-  MasterStylesheet="/Content/Resources/Stylesheets/Styles.old.css"
+  MasterStylesheet="/Content/Resources/Stylesheets/cpstyles_short.old.css"
   MasterStylesheetOverride="false"
   ShowMadCapBacklink="false"
   Skin="/Project/Skins/tripane.flskn"
