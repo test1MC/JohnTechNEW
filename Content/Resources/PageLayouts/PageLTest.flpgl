@@ -20,7 +20,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p>- <MadCap:variable xhtml:name="System.PageNumber" /> -</xhtml:p>
+                        <xhtml:p>- <MadCap:variable xhtml:name="System.PageNumber" /> - <MadCap:variable xhtml:name="System.ChapterNumber" /> <MadCap:variable xhtml:name="System.SectionNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

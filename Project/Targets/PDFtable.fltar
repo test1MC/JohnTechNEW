@@ -7,12 +7,17 @@
   ShowMadCapBacklink="true"
   GlossaryTermConversion="marked"
   CentralLinkIds=""
-  TargetLanguage="ar"
-  MasterToc="/Project/TOCs/TOC.fltoc">
+  TargetLanguage="en-us"
+  MasterToc="/Project/TOCs/betty.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/flare_19_minibook.css"
+  PatchHeadingLevels="true"
+  MasterStylesheetOverride="true"
+  Medium="print"
+  MasterPageLayout="/Content/Resources/PageLayouts/PageLTest.flpgl">
   <PrintedOutput
     CollapseMargins="true"
-    GenerateTOCProxy="true"
-    GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
     OutputFormat="docx" />
 </CatapultTarget>
