@@ -5,7 +5,7 @@
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="first"
-  MasterToc="/Project/TOCs/TOC.fltoc"
+  MasterToc="/Project/TOCs/Confluence.fltoc"
   EquationsOutputType="SVG"
   ExcludeUnreferencedContent="false"
   TopNavTocPath="false"
