@@ -1,8 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="QA Admin’s Home">
-        <TocEntry Title="Link bug" Link="/Content/wordimport/Link_bug.htm" />
-        <TocEntry Title="Linked page" Link="/Content/wordimport/Linked_page.htm" />
-        <TocEntry Title="Shared links" Link="/Content/wordimport/Shared_links.htm" />
-    </TocEntry>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="QA Admin’s Home">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Link bug"
+      Link="/Content/wordimport/Link_bug.htm" />
+    <TocEntry
+      Title="Linked page"
+      Link="/Content/wordimport/Linked_page.htm" />
+    <TocEntry
+      Title="Shared links"
+      Link="/Content/wordimport/Shared_links.htm" />
+  </TocEntry>
 </CatapultToc>
